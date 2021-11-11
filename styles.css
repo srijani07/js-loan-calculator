@@ -1,0 +1,24 @@
+* {
+    /* text-align : center; */
+    font-family: monospace;
+    font-size: large;
+}
+
+.input-wrapper {
+    text-align:left;
+    margin-left: 15rem;
+    margin-top : 2rem;
+}
+
+
+#btn-calculate {
+    text-align : left;
+    margin-top : 2rem;
+    margin-left: 15rem;
+}
+
+#output-area {
+    text-align : left;
+    margin-top : 2rem;
+    margin-left: 15rem;
+}
