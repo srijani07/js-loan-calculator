@@ -1,2 +1,2 @@
 # js-loan-calculator
-Calculate loan amount to be repaid (including months to repay and interest rate). Built using HTML, CSS, Bootstrap and vanillaJS.
+Calculate the monthly EMI for a given amount, rate of interest, and tenure. Built using HTML, CSS, Bootstrap, and vanillaJS.
