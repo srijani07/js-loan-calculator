@@ -1,24 +1,42 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;900&display=swap');
 * {
-    /* text-align : center; */
-    font-family: monospace;
-    font-size: large;
+    font-family: 'Rubik', sans-serif;
 }
 
 .input-wrapper {
-    text-align:left;
-    margin-left: 15rem;
-    margin-top : 2rem;
+    text-align:center;
+    margin-top: 3rem;
 }
 
 
 #btn-calculate {
-    text-align : left;
-    margin-top : 2rem;
-    margin-left: 15rem;
+    margin:0 auto;
+    display:block;
+    margin-top: 3rem;
 }
 
 #output-area {
-    text-align : left;
-    margin-top : 2rem;
-    margin-left: 15rem;
+    text-align:center;
+    margin-top: 3rem;
+}
+
+h5 {
+    margin-top: 1rem;
+    text-align : center;
+}
+
+footer {
+    color: white;
+    text-align: center;
+    position:fixed;
+    bottom:0;
+    width:100vw;
+}
+
+a {
+    color: white;
+}
+
+a:hover {
+    color: bisque;
 }

@@ -4,10 +4,14 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
     <link rel="stylesheet" href="styles.css">
+    
     <title>Loan Calculator</title>
 </head>
 <body>
+    <h5>Loan Calculator</h5>
+    <hr>
     <div class="input-wrapper">
     <label for="input-loan-amount">Loan Amount: </label>
     <input type = "number" id="input-loan-amount" min=1></div>
@@ -20,11 +24,18 @@
     <div class="input-wrapper">
         <label for="input-months-to-repay">Months to repay: </label>
         <input type = "number" id="input-months-to-repay" min=1></div>
-    
-        <button id="btn-calculate">Calculate</button>
+        <button type="button" class="btn btn-secondary btn-sm bg-dark" id="btn-calculate">Calculate</button>
     <div id="output-area"></div>
+
+    <footer id="sticky-footer" class="flex-shrink-0 py-4 bg-dark text-white-50">
+            <a target="/" href="https://linktr.ee/srijani07">&lt;/Srijani&gt</a>  
+            
+          </div>
+        
+      </footer>
     
 </body>
+
 
 <script type="text/javascript" src="script.js"></script>
 </html>
